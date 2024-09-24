@@ -16,3 +16,26 @@ Depth-First Search (DFS)
 Algorithm Visualization: Watch how different algorithms explore the grid to find the shortest path.
 Real-Time Updates: The grid updates in real-time as the algorithms work their way through it.
 Responsive Design: Works seamlessly on different devices and screen sizes.
+
+Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/pathfinding-visualizer.git
+cd pathfinding-visualizer
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
+
+
