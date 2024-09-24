@@ -3,6 +3,16 @@
 
 <img src="/src/img.jpg">
 
-A path finding algorithm is responsible for finding the shortest possible distance between two given points. A popular algorithm is the Dijkstra's Algorithm. Checkout more about this algorithm [here](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
+Overview
+This project is a Pathfinding Visualizer built using React. It helps visualize various pathfinding algorithms like Dijkstra's Algorithm, A Search*, Breadth-First Search (BFS), and Depth-First Search (DFS) on a grid. Users can interactively set start and end points, place obstacles, and watch how the algorithms explore the grid to find the shortest path.
 
-View the live demo of this project [here](https://dijkstra-path-finder.netlify.app/).
+Features
+Interactive Grid: Users can select the start and end points, place walls (obstacles), and adjust grid size.
+Multiple Algorithms: Visualize popular pathfinding algorithms such as:
+Dijkstra's Algorithm
+A* Search
+Breadth-First Search (BFS)
+Depth-First Search (DFS)
+Algorithm Visualization: Watch how different algorithms explore the grid to find the shortest path.
+Real-Time Updates: The grid updates in real-time as the algorithms work their way through it.
+Responsive Design: Works seamlessly on different devices and screen sizes.
