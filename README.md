@@ -38,4 +38,30 @@ Copy code
 npm start
 The app will be available at http://localhost:3000.
 
+Usage
+Select Start and End Points: Click on the grid to set the starting and ending points for the algorithm.
+Place Obstacles: Click on grid cells to place or remove walls that will act as obstacles for the algorithm.
+Choose an Algorithm: Select an algorithm from the controls section and click "Start" to begin the visualization.
+Watch the Visualization: Observe the algorithm as it explores the grid and finds the shortest path (if possible).
+Reset Grid: Reset the grid to start a new pathfinding session.
+Available Pathfinding Algorithms
+Dijkstra's Algorithm: Guarantees the shortest path in a weighted grid.
+A Search*: Optimized pathfinding using heuristics.
+Breadth-First Search (BFS): Unweighted algorithm, guarantees the shortest path.
+Depth-First Search (DFS): Unweighted algorithm, does not guarantee the shortest path.
+Customization
+Grid Size: Modify the grid size in the code to create larger or smaller grids.
+Algorithm Speed: Adjust the visualization speed by changing the animation timing in the code.
+New Algorithms: Implement and add new algorithms such as Greedy Best-First Search, or customize existing algorithms.
+Styling: Modify App.css to customize the appearance of the grid and control buttons.
+Example
+When you open the app:
+
+A grid is displayed where you can select the start and end points.
+Place obstacles and choose an algorithm from the dropdown menu.
+Watch the algorithm visualize its exploration and see how it finds the shortest path.
+Dependencies
+React: Frontend framework for building the UI.
+CSS or Styled Components: For styling the app and grid.
+Algorithms: Custom implementation of pathfinding algorithms.
 
